@@ -114,7 +114,7 @@ export default function Page({ csrfToken, providers }) {
                     name="password"
                     type="password"
                     autoComplete="current-password"
-                    minLength={12}
+                    minLength={6}
                     required
                     {...register("password")}
                     className="appearance-none w-full font-medium py-3 border-b border-t-0 border-l-0 border-r-0 border-dashed outline-none text-xl text-center leading-6 bg-transparent placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
